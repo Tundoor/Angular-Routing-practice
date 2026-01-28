@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { RouterLink, RouterOutlet } from "@angular/router";
 
 @Component({
   selector: 'app-profile-pg',
-  imports: [],
+  imports: [RouterLink, RouterOutlet],
   templateUrl: './profile-pg.html',
   styleUrl: './profile-pg.css',
 })
